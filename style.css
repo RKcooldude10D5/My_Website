@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background: linear-gradient(DarkGreen 0%, LightGreen 100%);
+    color: yellow;
+}
+
+.line {
+    width: 70px;
+    height: 6px;
+    background-color: yellow;
+    margin: 8px auto;
+
+}
+h1{
+    font-size: 40px;
+    font-family: lucida console;
+}
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
